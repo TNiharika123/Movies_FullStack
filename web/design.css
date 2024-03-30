@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+
+
+}
+
+body {
+    position: relative;
+    background-color: red;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0;
+    margin-left:40px;
+    
+}
+.logo
+{
+    width:170px;
+    cursor:pointer;
+}
+.card
+{
+    margin-top: 300px;
+   position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 4px;
+    padding: 70px;
+    padding-bottom: 90px;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .75);
+}
+
+.card h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-top:-50px;
+    margin-bottom: 60px;
+}
+form .form-control {
+    height: 50px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.form-control input {
+    height: 100%;
+    width: 100%;
+    background: #333;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+.form-control label {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    pointer-events: none;
+    color: #8c8c8c;
+    transition: all 0.1s ease;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+    background: #444;
+    padding: 16px 20px 0;
+}
+
+.form-control input:focus ~ label,
+.form-control input:valid ~ label {
+    font-size: 0.75rem;
+    transform: translateY(-130%);
+}
+
+
+button:hover {
+    background: #c40812;
+}
+button {
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1rem;
+    background: #e50914;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin: 25px 0 10px;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+/*
+.email-signup
+{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.email-signup input
+{
+    flex:1;
+    border:0;
+    outline:0;
+    margin-left: 20px;
+}
+*/
